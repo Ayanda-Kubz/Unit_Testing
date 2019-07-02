@@ -1,0 +1,19 @@
+package com.testing;
+
+public class Calculator{
+
+    public int Add(String numbers){
+        int res = 0;
+
+        if (numbers.isEmpty()){
+            return 0;
+        }
+
+        String Array[] = numbers.split(",");
+        for(String x: Array){
+
+            res = res + Integer.parseInt(x);
+        }
+        return res;
+    }
+}

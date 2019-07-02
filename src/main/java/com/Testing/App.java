@@ -1,4 +1,4 @@
-package com.Testing;
+package com.testing;
 
 /**
  * Hello world!
